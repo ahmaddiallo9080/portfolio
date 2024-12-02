@@ -148,7 +148,7 @@
                     class="fa fa-home absolute left-0 right-0 mx-auto block text-center top-15 pointer-events-none text-fs-19"></i>
                 <div class="group block p-0 w-50 h-50">
                     <h2
-                        class="absolute text-center -z-10 block h-50 pr-25 pl-30 text-fs-15 right-0 opacity-0 text-white leading-lh-50 font-medium transition-all duration-300 rounded-30 group-hover:opacity-100 group-hover:right-27 group-hover:rounded-tl-30 group-hover:rounded-bl-30 group-hover:rounded-tr-none group-hover:rounded-br-none">
+                        class="absolute text-center -z-10 block h-50 pr-25 pl-30 text-fs-12 right-0 opacity-0 text-white leading-lh-50 font-medium transition-all duration-300 rounded-30 group-hover:opacity-100 group-hover:right-27 group-hover:rounded-tl-30 group-hover:rounded-bl-30 group-hover:rounded-tr-none group-hover:rounded-br-none">
                         Accueil</h2>
                 </div>
             </li>
@@ -158,8 +158,8 @@
                     class="fa fa-user absolute left-0 right-0 mx-auto block text-center top-15 pointer-events-none text-fs-19"></i>
                 <div class="group block p-0 w-50 h-50">
                     <h2
-                        class="absolute text-center -z-10 block h-50 pr-25 pl-30 text-fs-15 right-0 opacity-0 text-white leading-lh-50 font-medium transition-all duration-300 rounded-30 group-hover:opacity-100 group-hover:right-27 group-hover:rounded-tl-30 group-hover:rounded-bl-30 group-hover:rounded-tr-none group-hover:rounded-br-none">
-                        Apropos</h2>
+                        class="absolute text-center -z-10 block h-50 pr-25 pl-30 text-fs-12 right-0 opacity-0 text-white leading-lh-50 font-medium transition-all duration-300 rounded-30 group-hover:opacity-100 group-hover:right-27 group-hover:rounded-tl-30 group-hover:rounded-bl-30 group-hover:rounded-tr-none group-hover:rounded-br-none">
+                        ÀPROPOS</h2>
                 </div>
             </li>
             <li
@@ -168,7 +168,7 @@
                     class="fa fa-briefcase absolute left-0 right-0 mx-auto block text-center top-15 pointer-events-none text-fs-19"></i>
                 <div class="group block p-0 w-50 h-50">
                     <h2
-                        class="absolute text-center -z-10 block h-50 pr-25 pl-30 text-fs-15 right-0 opacity-0 text-white leading-lh-50 font-medium transition-all duration-300 rounded-30 group-hover:opacity-100 group-hover:right-27 group-hover:rounded-tl-30 group-hover:rounded-bl-30 group-hover:rounded-tr-none group-hover:rounded-br-none">
+                        class="absolute text-center -z-10 block h-50 pr-25 pl-30 text-fs-12 right-0 opacity-0 text-white leading-lh-50 font-medium transition-all duration-300 rounded-30 group-hover:opacity-100 group-hover:right-27 group-hover:rounded-tl-30 group-hover:rounded-bl-30 group-hover:rounded-tr-none group-hover:rounded-br-none">
                         Portfolio</h2>
                 </div>
             </li>
@@ -178,7 +178,7 @@
                     class="fa fa-envelope-open absolute left-0 right-0 mx-auto block text-center top-15 pointer-events-none text-fs-19"></i>
                 <div class="group block p-0 w-50 h-50">
                     <h2
-                        class="absolute text-center -z-10 block h-50 pr-25 pl-30 text-fs-15 right-0 opacity-0 text-white leading-lh-50 font-medium transition-all duration-300 rounded-30 group-hover:opacity-100 group-hover:right-27 group-hover:rounded-tl-30 group-hover:rounded-bl-30 group-hover:rounded-tr-none group-hover:rounded-br-none">
+                        class="absolute text-center -z-10 block h-50 pr-25 pl-30 text-fs-12 right-0 opacity-0 text-white leading-lh-50 font-medium transition-all duration-300 rounded-30 group-hover:opacity-100 group-hover:right-27 group-hover:rounded-tl-30 group-hover:rounded-bl-30 group-hover:rounded-tr-none group-hover:rounded-br-none">
                         Contact</h2>
                 </div>
             </li>
@@ -188,7 +188,7 @@
                     class="fa fa-comments absolute left-0 right-0 mx-auto block text-center top-15 pointer-events-none text-fs-19"></i>
                 <div class="group block p-0 w-50 h-50">
                     <h2
-                        class="absolute text-center -z-10 block h-50 pr-25 pl-30 text-fs-15 right-0 opacity-0 text-white leading-lh-50 font-medium transition-all duration-300 rounded-30 group-hover:opacity-100 group-hover:right-27 group-hover:rounded-tl-30 group-hover:rounded-bl-30 group-hover:rounded-tr-none group-hover:rounded-br-none">
+                        class="absolute text-center -z-10 block h-50 pr-25 pl-30 text-fs-12 right-0 opacity-0 text-white leading-lh-50 font-medium transition-all duration-300 rounded-30 group-hover:opacity-100 group-hover:right-27 group-hover:rounded-tl-30 group-hover:rounded-bl-30 group-hover:rounded-tr-none group-hover:rounded-br-none">
                         Blog</h2>
                 </div>
             </li>
@@ -217,7 +217,7 @@
                     <li class="mobile-nav-element relative pl-30">
                         <div class="uppercase delay-2000 no-underline relative text-fs-26 xs:text-fs-18 py-14">
                             <i class="fa fa-user"></i>
-                            <span class="absolute left-50 xs:left-35 font-normal">Apropos</span>
+                            <span class="absolute left-50 xs:left-35 font-normal">À PROPOS</span>
                         </div>
                     </li>
                     <li class="mobile-nav-element relative pl-30">
@@ -269,7 +269,12 @@
                             Alpha Amadou Diallo.<span class="block text-white">Développeur Web</span></h1>
                         <p
                             class="font-Open-sans mt-15 mb-28 leading-lh-35 down-lg:mt-2.5 down-lg:mb-23 down-lg:text-fs-15 down-lg:leading-lh-30">
-                            Je suis un développeur web passionné, spécialisé dans la création de sites et d'applications intuitifs et performants. Mon objectif est de transformer des idées en solutions numériques innovantes qui améliorent l'expérience utilisateur. Avec une attention particulière aux détails et une approche axée sur l'utilisateur, je m'engage à livrer des projets de qualité qui répondent aux besoins de mes clients. Explorez mes réalisations et découvrons ensemble comment je peux donner vie à votre vision !</p>
+                            Je suis un développeur web passionné, spécialisé dans la création de sites et d'applications
+                            intuitifs et performants. Mon objectif est de transformer des idées en solutions numériques
+                            innovantes qui améliorent l'expérience utilisateur. Avec une attention particulière aux
+                            détails et une approche axée sur l'utilisateur, je m'engage à livrer des projets de qualité
+                            qui répondent aux besoins de mes clients. Explorez mes réalisations et découvrons ensemble
+                            comment je peux donner vie à votre vision !</p>
                         <div id="link-about"
                             class="button cursor-pointer overflow-hidden inline-block leading-lh-1.4 rounded-30 text-ellipsis text-center align-middle select-none transition-all duration-250 ease-in-out uppercase no-underline relative z-10 py-16 pr-70 pl-35 text-fs-15 font-semibold text-white bg-transparent outline-0 before:absolute before:-z-10 before:left-0 before:right-0 before:top-0 before:bottom-0 before:translate-x-full hover:before:translate-x-0 before:transition before:duration-300 before:ease-out">
                             <span class="relative z-20 text-white">en savoir plus sur moi</span>
@@ -290,10 +295,11 @@
                     class="mx-auto w-full relative py-80 text-center xs:px-25 xs:pt-16 xs:pb-14 xs:bg-black-3 xs:border-b xs:border-black-4 xs:fixed xs:left-0 xs:right-0 xs:top-0 xs:z-20">
                     <h2
                         class="text-fs-56 font-black font-Poppins uppercase text-white m-0 xs:text-fs-26 xs:text-left xs:leading-lh-1.2">
-                        Apropos <span class="text-accent">de moi</span>
+                        À propos <span class="text-accent">de moi</span>
                     </h2>
                     <span
-                        class="text-fs-110 absolute left-0 right-0 top-1/2 tracking-10 leading-lh-0.7 font-extrabold text-muted -translate-y-1/2 uppercase xs:hidden">mon CV</span>
+                        class="text-fs-110 absolute left-0 right-0 top-1/2 tracking-10 leading-lh-0.7 font-extrabold text-muted -translate-y-1/2 uppercase xs:hidden">mon
+                        CV</span>
                 </div>
                 <!-- Section Title Ends -->
                 <div
@@ -427,7 +433,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="w-1/2 px-15">
+                                {{-- <div class="w-1/2 px-15">
                                     <div
                                         class="pt-20 xs:pt-15 pr-30 xs:pr-20 pb-25 xs:pb-20 pl-40 xs:pl-25 border border-black-3 rounded-5">
                                         <h3
@@ -439,8 +445,8 @@
                                             happy <span class="block">customers</span>
                                         </p>
                                     </div>
-                                </div>
-                                <div class="w-1/2 px-15">
+                                </div> --}}
+                                {{-- <div class="w-1/2 px-15">
                                     <div
                                         class="pt-20 xs:pt-15 pr-30 xs:pr-20 pb-25 xs:pb-20 pl-40 xs:pl-25 border border-black-3 rounded-5">
                                         <h3
@@ -452,7 +458,7 @@
                                             awards <span class="block">won</span>
                                         </p>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <!-- Facts Ends -->
@@ -572,8 +578,8 @@
                                         </span>
                                     </h5>
                                     <p class="font-Open-sans text-light-grey text-fs-14">
-                                        Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing
-                                        elit,
+                                        En tant que développeur web chez Easy Link Guinea, j'ai eu l'opportunité de travailler sur des projets variés qui m'ont permis de mettre en pratique mes compétences techniques et créatives.
+                                        Cette expérience a renforcé ma passion pour le développement web et m'a permis d'acquérir une compréhension approfondie des défis et des opportunités dans le secteur numérique.
                                     </p>
                                 </li>
                                 <li
@@ -594,8 +600,8 @@
                                         </span>
                                     </h5>
                                     <p class="font-Open-sans text-light-grey text-fs-14">
-                                        Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing
-                                        elit,
+                                        En tant que stagiaire développeur web chez Easy Link Guinea, j'ai eu l'opportunité de travailler sur divers projets numériques au sein d'une agence dynamique.
+                                        Cette expérience a été essentielle pour renforcer mes compétences en développement web et m'a permis de mieux comprendre les besoins des clients dans le secteur digital.
                                     </p>
                                 </li>
                                 <li
@@ -606,7 +612,7 @@
                                     </div>
                                     <span
                                         class="text-white text-fs-12 py-1 px-10 inline-block mb-12 rounded-20 font-semibold bg-black-3 opacity-80 font-Open-sans uppercase">
-                                        Janvier 2023 - Mai 2023
+                                        Septembre 2022 - Mai 2023
                                     </span>
                                     <h5 class="uppercase text-fs-18 mt-7 mb-10">
                                         Agent de Saisie des données
@@ -616,8 +622,12 @@
                                         </span>
                                     </h5>
                                     <p class="font-Open-sans text-light-grey text-fs-14">
-                                        Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing
-                                        elit,
+                                        En tant qu'agent de saisie de données chez Factoriels, j'étais responsable de la
+                                        gestion et de l'enregistrement précis des informations au sein de la base de
+                                        données de l'entreprise.
+                                        Cette expérience m'a permis de développer mes compétences en gestion des
+                                        données, en attention aux détails et en utilisation d'outils bureautiques, tout
+                                        en renforçant ma capacité à travailler dans un environnement dynamique.
                                     </p>
                                 </li>
                             </ul>
@@ -626,6 +636,28 @@
                         <!-- Education Starts -->
                         <div class="w-1/2 down-sm:w-full">
                             <ul>
+                                <li
+                                    class="relative pr-20 pl-60 mb-50 after:absolute after:top-0 after:left-20 after:bg-black-4 after:w-1 after:h-full">
+                                    <div
+                                        class="bg-accent w-40 h-40 absolute left-0 leading-lh-40 text-center z-10 rounded-full text-white">
+                                        <i class="fa fa-graduation-cap"></i>
+                                    </div>
+                                    <span
+                                        class="text-white text-fs-12 py-1 px-10 inline-block mb-12 rounded-20 font-semibold bg-black-3 opacity-80 font-Open-sans uppercase">
+                                        2023
+                                    </span>
+                                    <h5 class="uppercase text-fs-18 mt-7 mb-10">
+                                        Certification 
+                                        <span
+                                            class="opacity-80 font-semibold text-fs-15 relative pl-26 font-Open-sans before:absolute before:w-10 before:h-2 before:bg-white before:left-7 before:top-9 before:opacity-80">
+                                            Orange Digital Center
+                                        </span>
+                                    </h5>
+                                    <p class="font-Open-sans text-light-grey text-fs-14">
+                                        J'ai obtenu ma certification en Design UX/UI auprès de l'Orangen Digital Center, où j'ai acquis des compétences essentielles pour créer des expériences utilisateur intuitives et engageantes. Cette formation m'a permis de maîtriser les principes fondamentaux du design, ainsi que les outils et techniques nécessaires pour concevoir des interfaces de qualité.
+                                        Cette certification a renforcé ma passion pour le design centré sur l'utilisateur et m'a préparé à relever les défis du développement d'applications et de sites web modernes.
+                                    </p>
+                                </li>
                                 <li
                                     class="relative pr-20 pl-60 mb-50 after:absolute after:top-0 after:left-20 after:bg-black-4 after:w-1 after:h-full">
                                     <div
@@ -644,7 +676,9 @@
                                         </span>
                                     </h5>
                                     <p class="font-Open-sans text-light-grey text-fs-14">
-                                        J'ai obtenu mon diplôme en informatique, où j'ai acquis des compétences solides en programmation, design d'interface utilisateur et développement d'applications. 
+                                        J'ai obtenu mon diplôme en informatique, où j'ai acquis des compétences solides
+                                        en programmation, design d'interface utilisateur et développement
+                                        d'applications.
                                     </p>
                                 </li>
                                 <li
@@ -665,7 +699,8 @@
                                         </span>
                                     </h5>
                                     <p class="font-Open-sans text-light-grey text-fs-14">
-                                        J'ai obtenu mon baccalauréat au lycée, où j'ai suivi une filière des Sciences Mathématiques
+                                        J'ai obtenu mon baccalauréat au lycée, où j'ai suivi une filière des Sciences
+                                        Mathématiques
                                     </p>
                                 </li>
                             </ul>
@@ -706,7 +741,7 @@
                                             alt="">
                                         <div class="absolute w-full h-full flex items-center justify-center bg-accent">
                                             <span class="uppercase text-fs-18 text-white">
-                                                image project
+                                                image du projet
                                             </span>
                                         </div>
                                     </figure>
