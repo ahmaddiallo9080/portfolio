@@ -10,6 +10,7 @@
     <!-- Template Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.1/css/font-awesome.min.css"> --}}
     <!-- Template CSS Files -->
     <link rel="stylesheet" href="{{ url('demos/assets/css/circle.css') }}">
     <link rel="stylesheet" href="{{ url('demos/assets/css/font-awesome.min.css') }}">
@@ -254,12 +255,12 @@
                 class="flex items-center h-screen w-full down-lg:mx-auto down-lg:justify-center xs:text-left down-lg:text-center ">
                 <!-- Desktop Image Starts -->
                 <img class="hidden from-lg:block fixed w-1/3 h-[calc(100vh-80px)] left-40 top-40 rounded-30 shadow-1 object-cover"
-                    src="{{ url('demos/assets/img/dark.jpg') }}" alt="">
+                    src="{{ url('demos/assets/images/profil1.jpg') }}" alt="">
                 <!-- Desktop Image Ends -->
                 <div class="from-lg:ml-100/3 from-lg:w-2/3">
                     <div class="mx-auto max-w-550 custom-md-1:max-w-450">
                         <!-- Mobile Image Starts -->
-                        <img src="{{ url('demos/assets/img/dark-img-mobile.jpg') }}"
+                        <img src="{{ url('demos/assets/images/profil1.jpg') }}"
                             class="hidden down-lg:block xs:!hidden rounded-full w-270 h-270 mx-auto mb-25 border-4 border-solid border-black-3"
                             alt="my picture">
                         <!-- Mobile Image Ends -->
@@ -308,10 +309,10 @@
                         <!-- Personal Informations Starts -->
                         <div class="xl:basis-1/2 lg:basis-5/12 down-lg:basis-full">
                             <h3 class="uppercase text-fs-26 xs:text-fs-21 pb-22 text-white font-semibold">
-                                personal infos
+                                infos personnelles
                             </h3>
                             <img class="hidden xs:block rounded-full border-4 border-solid border-black-3 w-230 h-230 mb-25 mx-auto"
-                                src="{{ url('demos/assets/img/dark-img-mobile.jpg') }}" alt="">
+                                src="{{ url('demos/assets/images/profil1.jpg') }}" alt="">
                             <div class="flex justify-between xs:justify-start font-Open-sans capitalize">
                                 <div class="basis-1/2 [&>div]:pb-20 [&>div:last-child]:pb-0 text-fs-15 xs:text-fs-14">
                                     <div>
@@ -377,7 +378,7 @@
                                             email :
                                         </span>
                                         <span class="xs:block custom-md-2:block font-semibold">
-                                            ahmaddiallo0809@mail.com
+                                            ahmaddiallo0809@gmail.com
                                         </span>
                                     </div>
                                     <div>
@@ -578,8 +579,12 @@
                                         </span>
                                     </h5>
                                     <p class="font-Open-sans text-light-grey text-fs-14">
-                                        En tant que développeur web chez Easy Link Guinea, j'ai eu l'opportunité de travailler sur des projets variés qui m'ont permis de mettre en pratique mes compétences techniques et créatives.
-                                        Cette expérience a renforcé ma passion pour le développement web et m'a permis d'acquérir une compréhension approfondie des défis et des opportunités dans le secteur numérique.
+                                        En tant que développeur web chez Easy Link Guinea, j'ai eu l'opportunité de
+                                        travailler sur des projets variés qui m'ont permis de mettre en pratique mes
+                                        compétences techniques et créatives.
+                                        Cette expérience a renforcé ma passion pour le développement web et m'a permis
+                                        d'acquérir une compréhension approfondie des défis et des opportunités dans le
+                                        secteur numérique.
                                     </p>
                                 </li>
                                 <li
@@ -600,8 +605,12 @@
                                         </span>
                                     </h5>
                                     <p class="font-Open-sans text-light-grey text-fs-14">
-                                        En tant que stagiaire développeur web chez Easy Link Guinea, j'ai eu l'opportunité de travailler sur divers projets numériques au sein d'une agence dynamique.
-                                        Cette expérience a été essentielle pour renforcer mes compétences en développement web et m'a permis de mieux comprendre les besoins des clients dans le secteur digital.
+                                        En tant que stagiaire développeur web chez Easy Link Guinea, j'ai eu
+                                        l'opportunité de travailler sur divers projets numériques au sein d'une agence
+                                        dynamique.
+                                        Cette expérience a été essentielle pour renforcer mes compétences en
+                                        développement web et m'a permis de mieux comprendre les besoins des clients dans
+                                        le secteur digital.
                                     </p>
                                 </li>
                                 <li
@@ -647,15 +656,21 @@
                                         2023
                                     </span>
                                     <h5 class="uppercase text-fs-18 mt-7 mb-10">
-                                        Certification 
+                                        Certification
                                         <span
                                             class="opacity-80 font-semibold text-fs-15 relative pl-26 font-Open-sans before:absolute before:w-10 before:h-2 before:bg-white before:left-7 before:top-9 before:opacity-80">
                                             Orange Digital Center
                                         </span>
                                     </h5>
                                     <p class="font-Open-sans text-light-grey text-fs-14">
-                                        J'ai obtenu ma certification en Design UX/UI auprès de l'Orangen Digital Center, où j'ai acquis des compétences essentielles pour créer des expériences utilisateur intuitives et engageantes. Cette formation m'a permis de maîtriser les principes fondamentaux du design, ainsi que les outils et techniques nécessaires pour concevoir des interfaces de qualité.
-                                        Cette certification a renforcé ma passion pour le design centré sur l'utilisateur et m'a préparé à relever les défis du développement d'applications et de sites web modernes.
+                                        J'ai obtenu ma certification en Design UX/UI auprès de l'Orangen Digital Center,
+                                        où j'ai acquis des compétences essentielles pour créer des expériences
+                                        utilisateur intuitives et engageantes. Cette formation m'a permis de maîtriser
+                                        les principes fondamentaux du design, ainsi que les outils et techniques
+                                        nécessaires pour concevoir des interfaces de qualité.
+                                        Cette certification a renforcé ma passion pour le design centré sur
+                                        l'utilisateur et m'a préparé à relever les défis du développement d'applications
+                                        et de sites web modernes.
                                     </p>
                                 </li>
                                 <li
@@ -737,8 +752,7 @@
                                 <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
                                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
                                         <img class="block relative w-full rounded-5 transition duration-300"
-                                            src="{{ url('demos/assets/img/projects/project-1.jpg') }}"
-                                            alt="">
+                                            src="{{ url('demos/assets/images/alertsst.png') }}" alt="">
                                         <div class="absolute w-full h-full flex items-center justify-center bg-accent">
                                             <span class="uppercase text-fs-18 text-white">
                                                 image du projet
@@ -751,11 +765,10 @@
                                 <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
                                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
                                         <img class="block relative w-full rounded-5 transition duration-300"
-                                            src="{{ url('demos/assets/img/projects/project-2.jpg') }}"
-                                            alt="">
+                                            src="{{ url('demos/assets/images/autotk.png') }}" alt="">
                                         <div class="absolute w-full h-full flex items-center justify-center bg-accent">
                                             <span class="uppercase text-fs-18 tex-white">
-                                                youtube project
+                                                image du projet
                                             </span>
                                         </div>
                                     </figure>
@@ -765,11 +778,10 @@
                                 <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
                                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
                                         <img class="block relative w-full rounded-5 transition duration-300"
-                                            src="{{ url('demos/assets/img/projects/project-3.jpg') }}"
-                                            alt="">
+                                            src="{{ url('demos/assets/images/dak.png') }}" alt="">
                                         <div class="absolute w-full h-full flex items-center justify-center bg-accent">
                                             <span class="uppercase text-fs-18 tex-white">
-                                                Local Video project
+                                                image du projet
                                             </span>
                                         </div>
                                     </figure>
@@ -779,11 +791,10 @@
                                 <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
                                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
                                         <img class="block relative w-full rounded-5 transition duration-300"
-                                            src="{{ url('demos/assets/img/projects/project-4.jpg') }}"
-                                            alt="">
+                                            src="{{ url('demos/assets/images/gschool.png') }}" alt="">
                                         <div class="absolute w-full h-full flex items-center justify-center bg-accent">
                                             <span class="uppercase text-fs-18 tex-white">
-                                                Image Project
+                                                image du projet
                                             </span>
                                         </div>
                                     </figure>
@@ -793,8 +804,7 @@
                                 <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
                                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
                                         <img class="block relative w-full rounded-5 transition duration-300"
-                                            src="{{ url('demos/assets/img/projects/project-5.jpg') }}"
-                                            alt="">
+                                            src="{{ url('demos/assets/images/lpay.png') }}" alt="">
                                         <div class="absolute w-full h-full flex items-center justify-center bg-accent">
                                             <span class="uppercase text-fs-18 tex-white">
                                                 image project
@@ -807,8 +817,7 @@
                                 <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
                                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
                                         <img class="block relative w-full rounded-5 transition duration-300"
-                                            src="{{ url('demos/assets/img/projects/project-6.jpg') }}"
-                                            alt="">
+                                            src="{{ url('demos/assets/images/nimba plus.png') }}" alt="">
                                         <div class="absolute w-full h-full flex items-center justify-center bg-accent">
                                             <span class="uppercase text-fs-18 tex-white">
                                                 image project
@@ -821,8 +830,7 @@
                                 <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
                                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
                                         <img class="block relative w-full rounded-5 transition duration-300"
-                                            src="{{ url('demos/assets/img/projects/project-7.jpg') }}"
-                                            alt="">
+                                            src="{{ url('demos/assets/images/socop.png') }}" alt="">
                                         <div class="absolute w-full h-full flex items-center justify-center bg-accent">
                                             <span class="uppercase text-fs-18 tex-white">
                                                 image project
@@ -830,13 +838,10 @@
                                         </div>
                                     </figure>
                                 </li>
-                                <!-- Portfolio Grid Item Ends -->
-                                <!-- Portfolio Grid Item Starts -->
                                 <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
                                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
                                         <img class="block relative w-full rounded-5 transition duration-300"
-                                            src="{{ url('demos/assets/img/projects/project-8.jpg') }}"
-                                            alt="">
+                                            src="{{ url('demos/assets/images/tpa.png') }}" alt="">
                                         <div class="absolute w-full h-full flex items-center justify-center bg-accent">
                                             <span class="uppercase text-fs-18 tex-white">
                                                 image project
@@ -844,13 +849,10 @@
                                         </div>
                                     </figure>
                                 </li>
-                                <!-- Portfolio Grid Item Ends -->
-                                <!-- Portfolio Grid Item Starts -->
                                 <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
                                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
                                         <img class="block relative w-full rounded-5 transition duration-300"
-                                            src="{{ url('demos/assets/img/projects/project-9.jpg') }}"
-                                            alt="">
+                                            src="{{ url('demos/assets/images/tpa.png') }}" alt="">
                                         <div class="absolute w-full h-full flex items-center justify-center bg-accent">
                                             <span class="uppercase text-fs-18 tex-white">
                                                 image project
@@ -858,386 +860,331 @@
                                         </div>
                                     </figure>
                                 </li>
-                                <!-- Portfolio Grid Item Ends -->
                             </ul>
                         </div>
-                        <!-- Portfolio Grid Ends -->
-                        <!-- Portfolio Details Starts -->
                         <div class="slideshow">
                             <ul>
                                 <!-- Portfolio Item Detail Starts -->
                                 <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
                                     <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
-                                        <!-- Project Details Starts -->
+
                                         <figcaption class="mb-15">
                                             <h3
                                                 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
-                                                Image Project</h3>
+                                                Projet Web</h3>
                                             <div class="flex flex-wrap font-Open-sans text-fs-15">
                                                 <div class="w-1/2 xs:w-full mb-8">
                                                     <i class="fa fa-file-text-o pr-8"></i><span
-                                                        class="project-label">Project </span>: <span
-                                                        class="font-semibold">Website</span>
+                                                        class="project-label">Projet </span>: <span
+                                                        class="font-semibold">App Web</span>
                                                 </div>
                                                 <div class="w-1/2 xs:w-full mb-8">
                                                     <i class="fa fa-user-o pr-8"></i><span
                                                         class="project-label">Client </span>: <span
-                                                        class="font-semibold">Envato</span>
+                                                        class="font-semibold">Dr Ibrahima Diakité</span>
                                                 </div>
                                                 <div class="w-1/2 xs:w-full mb-8">
                                                     <i class="fa fa-code pr-8"></i><span
                                                         class="project-label">Langages </span>: <span
-                                                        class="font-semibold">HTML, CSS, Javascript</span>
+                                                        class="font-semibold">HTML, CSS, Javascript, Bootstrap,
+                                                        PHP</span>
                                                 </div>
                                                 <div class="w-1/2 xs:w-full mb-8">
                                                     <i class="fa fa-external-link pr-8"></i><span
                                                         class="project-label">Preview </span>: <span
                                                         class="font-semibold"><a class="underline text-accent"
-                                                            href="#" target="_blank">www.envato.com</a></span>
+                                                            href="#"
+                                                            target="_blank">https://app.alertsst.com/</a></span>
                                                 </div>
                                             </div>
                                         </figcaption>
-                                        <!-- Project Details Ends -->
-                                        <!-- Main Project Content Starts -->
                                         <img class="block w-full rounded-5"
-                                            src="{{ url('demos/assets/img/projects/project-1.jpg') }}"
-                                            alt="Portolio Image">
-                                        <!-- Main Project Content Ends -->
+                                            src="{{ url('demos/assets/images/alertsst.png') }}" alt="Portolio Image">
                                     </figure>
                                 </li>
-                                <!-- Portfolio Item Detail Ends -->
-                                <!-- Portfolio Item Detail Starts -->
                                 <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
                                     <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
-                                        <!-- Project Details Starts -->
                                         <figcaption class="mb-15">
                                             <h3
                                                 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
-                                                Youtube Project</h3>
+                                                Projet Web</h3>
                                             <div class="flex flex-wrap font-Open-sans text-fs-15">
                                                 <div class="w-1/2 xs:w-full mb-8">
                                                     <i class="fa fa-file-text-o pr-8"></i><span
-                                                        class="project-label">Project </span>: <span
-                                                        class="font-semibold">Website</span>
+                                                        class="project-label">Projet </span>: <span
+                                                        class="font-semibold">Site Web</span>
                                                 </div>
                                                 <div class="w-1/2 xs:w-full mb-8">
                                                     <i class="fa fa-user-o pr-8"></i><span
                                                         class="project-label">Client </span>: <span
-                                                        class="font-semibold">Envato</span>
+                                                        class="font-semibold">Guinée Auto TK</span>
                                                 </div>
                                                 <div class="w-1/2 xs:w-full mb-8">
                                                     <i class="fa fa-code pr-8"></i><span
                                                         class="project-label">Langages </span>: <span
-                                                        class="font-semibold">HTML, CSS, Javascript</span>
+                                                        class="font-semibold">HTML, CSS, Javascript, Bootstrap</span>
                                                 </div>
                                                 <div class="w-1/2 xs:w-full mb-8">
                                                     <i class="fa fa-external-link pr-8"></i><span
                                                         class="project-label">Preview </span>: <span
                                                         class="font-semibold"><a class="underline text-accent"
-                                                            href="#" target="_blank">www.envato.com</a></span>
+                                                            href="#"
+                                                            target="_blank">https://guineeautotk.com/</a></span>
                                                 </div>
                                             </div>
                                         </figcaption>
-                                        <!-- Project Details Ends -->
-                                        <!-- Main Project Content Starts -->
-                                        <div class="videocontainer">
-                                            <iframe class="youtube-video"
-                                                src="https://www.youtube.com/embed/7e90gBu4pas?enablejsapi=1&amp;version=3&amp;playerapiid=ytplayer"
-                                                allowfullscreen></iframe>
-                                        </div>
-                                        <!-- Main Project Content Ends -->
-                                    </figure>
-                                </li>
-                                <!-- Portfolio Item Detail Ends -->
-                                <!-- Portfolio Item Detail Starts -->
-                                <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
-                                    <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
-                                        <!-- Project Details Starts -->
-                                        <figcaption class="mb-15">
-                                            <h3
-                                                class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
-                                                Local Video Project</h3>
-                                            <div class="flex flex-wrap font-Open-sans text-fs-15">
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-file-text-o pr-8"></i><span
-                                                        class="project-label">Project </span>: <span
-                                                        class="font-semibold">Video</span>
-                                                </div>
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-user-o pr-8"></i><span
-                                                        class="project-label">Client </span>: <span
-                                                        class="font-semibold">Videohive</span>
-                                                </div>
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-code pr-8"></i><span
-                                                        class="project-label">Langages </span>: <span
-                                                        class="font-semibold">Adobe After Effects</span>
-                                                </div>
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-external-link pr-8"></i><span
-                                                        class="project-label">Preview </span>: <span
-                                                        class="font-semibold"><a class="underline text-accent"
-                                                            href="#" target="_blank">www.videhive.net</a></span>
-                                                </div>
-                                            </div>
-                                        </figcaption>
-                                        <!-- Project Details Ends -->
-                                        <!-- Main Project Content Starts -->
-                                        <video id="video" class="responsive-video" controls
-                                            poster="{{ url('demos/assets/img/projects/project-3.jpg') }}">
-                                            <source src="{{ url('demos/assets/img/projects/video.mp4') }}"
-                                                type="video/mp4">
-                                        </video>
-                                        <!-- Main Project Content Ends -->
-                                    </figure>
-                                </li>
-                                <!-- Portfolio Item Detail Ends -->
-                                <!-- Portfolio Item Detail Starts -->
-                                <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
-                                    <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
-                                        <!-- Project Details Starts -->
-                                        <figcaption class="mb-15">
-                                            <h3
-                                                class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
-                                                Image Project</h3>
-                                            <div class="flex flex-wrap font-Open-sans text-fs-15">
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-file-text-o pr-8"></i><span
-                                                        class="project-label">Project </span>: <span
-                                                        class="font-semibold">Video</span>
-                                                </div>
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-user-o pr-8"></i><span
-                                                        class="project-label">Client </span>: <span
-                                                        class="font-semibold">Videohive</span>
-                                                </div>
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-code pr-8"></i><span
-                                                        class="project-label">Langages </span>: <span
-                                                        class="font-semibold">Adobe Premium</span>
-                                                </div>
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-external-link pr-8"></i><span
-                                                        class="project-label">Preview </span>: <span
-                                                        class="font-semibold"><a class="underline text-accent"
-                                                            href="#" target="_blank">www.videhive.net</a></span>
-                                                </div>
-                                            </div>
-                                        </figcaption>
-                                        <!-- Project Details Ends -->
-                                        <!-- Main Project Content Starts -->
                                         <img class="block w-full rounded-5"
-                                            src="{{ url('demos/assets/img/projects/project-4.jpg') }}"
-                                            alt="Portolio Image">
-                                        <!-- Main Project Content Ends -->
+                                            src="{{ url('demos/assets/images/autotk.png') }}" alt="Portolio Image">
                                     </figure>
                                 </li>
-                                <!-- Portfolio Item Detail Ends -->
-                                <!-- Portfolio Item Detail Starts -->
+                                <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                                    <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                                        <figcaption class="mb-15">
+                                            <h3
+                                                class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
+                                                Projet Web</h3>
+                                            <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-file-text-o pr-8"></i><span
+                                                        class="project-label">Projet </span>: <span
+                                                        class="font-semibold">App Web</span>
+                                                </div>
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-user-o pr-8"></i><span
+                                                        class="project-label">Client </span>: <span
+                                                        class="font-semibold">Dak-Transfert</span>
+                                                </div>
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-code pr-8"></i><span
+                                                        class="project-label">Langages </span>: <span
+                                                        class="font-semibold">HTML, Bootstrap, JavaScript, PHP</span>
+                                                </div>
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-external-link pr-8"></i><span
+                                                        class="project-label">Preview </span>: <span
+                                                        class="font-semibold"><a class="underline text-accent"
+                                                            href="#"
+                                                            target="_blank">https://app.daktransfert.com/connexion</a></span>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                        <img class="block w-full rounded-5"
+                                            src="{{ url('demos/assets/images/dak.png') }}" alt="Portolio Image">
+                                    </figure>
+                                </li>
+                                <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                                    <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                                        <figcaption class="mb-15">
+                                            <h3
+                                                class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
+                                                Projet Web</h3>
+                                            <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-file-text-o pr-8"></i><span
+                                                        class="project-label">Project </span>: <span
+                                                        class="font-semibold">Site Web</span>
+                                                </div>
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-user-o pr-8"></i><span
+                                                        class="project-label">Client </span>: <span
+                                                        class="font-semibold">Lengopay</span>
+                                                </div>
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-code pr-8"></i><span
+                                                        class="project-label">Langages </span>: <span
+                                                        class="font-semibold">HTML, CSS, Bootrstrap, JavaScript</span>
+                                                </div>
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-external-link pr-8"></i><span
+                                                        class="project-label">Preview </span>: <span
+                                                        class="font-semibold"><a class="underline text-accent"
+                                                            href="#"
+                                                            target="_blank">https://lengopay.com/</a></span>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                        <img class="block w-full rounded-5"
+                                            src="{{ url('demos/assets/images/lpay.png') }}" alt="Portolio Image">
+                                    </figure>
+                                </li>
+                                <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                                    <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                                        <figcaption class="mb-15">
+                                            <h3
+                                                class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
+                                                Projet Web</h3>
+                                            <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-file-text-o pr-8"></i><span
+                                                        class="project-label">Projet </span>: <span
+                                                        class="font-semibold">Site Web</span>
+                                                </div>
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-user-o pr-8"></i><span
+                                                        class="project-label">Client </span>: <span
+                                                        class="font-semibold">Nimba Plus</span>
+                                                </div>
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-code pr-8"></i><span
+                                                        class="project-label">Langages </span>: <span
+                                                        class="font-semibold">Wordpress</span>
+                                                </div>
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-external-link pr-8"></i><span
+                                                        class="project-label">Preview </span>: <span
+                                                        class="font-semibold"><a class="underline text-accent"
+                                                            href="#"
+                                                            target="_blank">https://nimbaplus.com/</a></span>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                        <img class="block w-full rounded-5"
+                                            src="{{ url('demos/assets/images/nimba plus.png') }}"
+                                            alt="Portolio Image">
+                                    </figure>
+                                </li>
+                                <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                                    <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                                        <figcaption class="mb-15">
+                                            <h3
+                                                class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
+                                                Projet Web</h3>
+                                            <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-file-text-o pr-8"></i><span
+                                                        class="project-label">Projet </span>: <span
+                                                        class="font-semibold">App Web</span>
+                                                </div>
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-user-o pr-8"></i><span
+                                                        class="project-label">Client </span>: <span
+                                                        class="font-semibold">Guinux</span>
+                                                </div>
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-code pr-8"></i><span
+                                                        class="project-label">Langages </span>: <span
+                                                        class="font-semibold">HTML, CSS, Javascript, Tailwind CSS,
+                                                        PHP</span>
+                                                </div>
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-external-link pr-8"></i><span
+                                                        class="project-label">Preview </span>: <span
+                                                        class="font-semibold"><a class="underline text-accent"
+                                                            href="#"
+                                                            target="_blank">https://www.g-shcool-edu.com/</a></span>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                        <img class="block w-full rounded-5"
+                                            src="{{ url('demos/assets/images/gschool.png') }}" alt="Portolio Image">
+                                    </figure>
+                                </li>
+                                <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                                    <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                                        <figcaption class="mb-15">
+                                            <h3
+                                                class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
+                                                Projet Web</h3>
+                                            <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-file-text-o pr-8"></i><span
+                                                        class="project-label">Projet </span>: <span
+                                                        class="font-semibold">App Web</span>
+                                                </div>
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-user-o pr-8"></i><span
+                                                        class="project-label">Client </span>: <span
+                                                        class="font-semibold">tout pour auto</span>
+                                                </div>
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-code pr-8"></i><span
+                                                        class="project-label">Langages </span>: <span
+                                                        class="font-semibold">HTML, CSS, Javascript, PHP</span>
+                                                </div>
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-external-link pr-8"></i><span
+                                                        class="project-label">Preview </span>: <span
+                                                        class="font-semibold"><a class="underline text-accent"
+                                                            href="#"
+                                                            target="_blank">https://toutpourauto.com/</a></span>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                        <img class="block w-full rounded-5"
+                                            src="{{ url('demos/assets/images/tpa.png') }}" alt="Portolio Image">
+                                    </figure>
+                                </li>
+                                <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                                    <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                                        <figcaption class="mb-15">
+                                            <h3
+                                                class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
+                                                Projet Web</h3>
+                                            <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-file-text-o pr-8"></i><span
+                                                        class="project-label">Projet </span>: <span
+                                                        class="font-semibold">App Web</span>
+                                                </div>
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-user-o pr-8"></i><span
+                                                        class="project-label">Client </span>: <span
+                                                        class="font-semibold">tout pour auto</span>
+                                                </div>
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-code pr-8"></i><span
+                                                        class="project-label">Langages </span>: <span
+                                                        class="font-semibold">HTML, CSS, Javascript, PHP</span>
+                                                </div>
+                                                <div class="w-1/2 xs:w-full mb-8">
+                                                    <i class="fa fa-external-link pr-8"></i><span
+                                                        class="project-label">Preview </span>: <span
+                                                        class="font-semibold"><a class="underline text-accent"
+                                                            href="#"
+                                                            target="_blank">https://toutpourauto.com/</a></span>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                        <img class="block w-full rounded-5"
+                                            src="{{ url('demos/assets/images/tpa.png') }}" alt="Portolio Image">
+                                    </figure>
+                                </li>
                                 <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
                                     <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
                                         <!-- Project Details Starts -->
                                         <figcaption class="mb-15">
                                             <h3
                                                 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
-                                                Image Project</h3>
+                                                Projet Web</h3>
                                             <div class="flex flex-wrap font-Open-sans text-fs-15">
                                                 <div class="w-1/2 xs:w-full mb-8">
                                                     <i class="fa fa-file-text-o pr-8"></i><span
                                                         class="project-label">Project </span>: <span
-                                                        class="font-semibold">Website</span>
+                                                        class="font-semibold">Site Web</span>
                                                 </div>
                                                 <div class="w-1/2 xs:w-full mb-8">
                                                     <i class="fa fa-user-o pr-8"></i><span
                                                         class="project-label">Client </span>: <span
-                                                        class="font-semibold">Envato</span>
+                                                        class="font-semibold">SOCOP</span>
                                                 </div>
                                                 <div class="w-1/2 xs:w-full mb-8">
                                                     <i class="fa fa-code pr-8"></i><span
                                                         class="project-label">Langages </span>: <span
-                                                        class="font-semibold">HTML, CSS, Javascript</span>
+                                                        class="font-semibold">Wordpress</span>
                                                 </div>
                                                 <div class="w-1/2 xs:w-full mb-8">
                                                     <i class="fa fa-external-link pr-8"></i><span
                                                         class="project-label">Preview </span>: <span
                                                         class="font-semibold"><a class="underline text-accent"
-                                                            href="#" target="_blank">www.envato.com</a></span>
+                                                            href="#"
+                                                            target="_blank">https://socopgn.com/</a></span>
                                                 </div>
                                             </div>
                                         </figcaption>
-                                        <!-- Project Details Ends -->
-                                        <!-- Main Project Content Starts -->
                                         <img class="block w-full rounded-5"
-                                            src="{{ url('demos/assets/img/projects/project-5.jpg') }}"
-                                            alt="Portolio Image">
-                                        <!-- Main Project Content Ends -->
+                                            src="{{ url('demos/assets/images/socop.png') }}" alt="Portolio Image">
                                     </figure>
                                 </li>
-                                <!-- Portfolio Item Detail Ends -->
-                                <!-- Portfolio Item Detail Starts -->
-                                <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
-                                    <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
-                                        <!-- Project Details Starts -->
-                                        <figcaption class="mb-15">
-                                            <h3
-                                                class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
-                                                Image Project</h3>
-                                            <div class="flex flex-wrap font-Open-sans text-fs-15">
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-file-text-o pr-8"></i><span
-                                                        class="project-label">Project </span>: <span
-                                                        class="font-semibold">Website</span>
-                                                </div>
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-user-o pr-8"></i><span
-                                                        class="project-label">Client </span>: <span
-                                                        class="font-semibold">Envato</span>
-                                                </div>
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-code pr-8"></i><span
-                                                        class="project-label">Langages </span>: <span
-                                                        class="font-semibold">HTML, CSS, Javascript</span>
-                                                </div>
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-external-link pr-8"></i><span
-                                                        class="project-label">Preview </span>: <span
-                                                        class="font-semibold"><a class="underline text-accent"
-                                                            href="#" target="_blank">www.envato.com</a></span>
-                                                </div>
-                                            </div>
-                                        </figcaption>
-                                        <!-- Project Details Ends -->
-                                        <!-- Main Project Content Starts -->
-                                        <img class="block w-full rounded-5"
-                                            src="{{ url('demos/assets/img/projects/project-6.jpg') }}"
-                                            alt="Portolio Image">
-                                        <!-- Main Project Content Ends -->
-                                    </figure>
-                                </li>
-                                <!-- Portfolio Item Detail Ends -->
-                                <!-- Portfolio Item Detail Starts -->
-                                <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
-                                    <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
-                                        <!-- Project Details Starts -->
-                                        <figcaption class="mb-15">
-                                            <h3
-                                                class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
-                                                Image Project</h3>
-                                            <div class="flex flex-wrap font-Open-sans text-fs-15">
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-file-text-o pr-8"></i><span
-                                                        class="project-label">Project </span>: <span
-                                                        class="font-semibold">Website</span>
-                                                </div>
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-user-o pr-8"></i><span
-                                                        class="project-label">Client </span>: <span
-                                                        class="font-semibold">Envato</span>
-                                                </div>
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-code pr-8"></i><span
-                                                        class="project-label">Langages </span>: <span
-                                                        class="font-semibold">HTML, CSS, Javascript</span>
-                                                </div>
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-external-link pr-8"></i><span
-                                                        class="project-label">Preview </span>: <span
-                                                        class="font-semibold"><a class="underline text-accent"
-                                                            href="#" target="_blank">www.envato.com</a></span>
-                                                </div>
-                                            </div>
-                                        </figcaption>
-                                        <!-- Project Details Ends -->
-                                        <!-- Main Project Content Starts -->
-                                        <img class="block w-full rounded-5"
-                                            src="{{ url('demos/assets/img/projects/project-7.jpg') }}"
-                                            alt="Portolio Image">
-                                        <!-- Main Project Content Ends -->
-                                    </figure>
-                                </li>
-                                <!-- Portfolio Item Detail Ends -->
-                                <!-- Portfolio Item Detail Starts -->
-                                <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
-                                    <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
-                                        <!-- Project Details Starts -->
-                                        <figcaption class="mb-15">
-                                            <h3
-                                                class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
-                                                Image Project</h3>
-                                            <div class="flex flex-wrap font-Open-sans text-fs-15">
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-file-text-o pr-8"></i><span
-                                                        class="project-label">Project </span>: <span
-                                                        class="font-semibold">Website</span>
-                                                </div>
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-user-o pr-8"></i><span
-                                                        class="project-label">Client </span>: <span
-                                                        class="font-semibold">Envato</span>
-                                                </div>
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-code pr-8"></i><span
-                                                        class="project-label">Langages </span>: <span
-                                                        class="font-semibold">HTML, CSS, Javascript</span>
-                                                </div>
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-external-link pr-8"></i><span
-                                                        class="project-label">Preview </span>: <span
-                                                        class="font-semibold"><a class="underline text-accent"
-                                                            href="#" target="_blank">www.envato.com</a></span>
-                                                </div>
-                                            </div>
-                                        </figcaption>
-                                        <!-- Project Details Ends -->
-                                        <!-- Main Project Content Starts -->
-                                        <img class="block w-full rounded-5"
-                                            src="{{ url('demos/assets/img/projects/project-8.jpg') }}"
-                                            alt="Portolio Image">
-                                        <!-- Main Project Content Ends -->
-                                    </figure>
-                                </li>
-                                <!-- Portfolio Item Detail Ends -->
-                                <!-- Portfolio Item Detail Starts -->
-                                <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
-                                    <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
-                                        <!-- Project Details Starts -->
-                                        <figcaption class="mb-15">
-                                            <h3
-                                                class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
-                                                Image Project</h3>
-                                            <div class="flex flex-wrap font-Open-sans text-fs-15">
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-file-text-o pr-8"></i><span
-                                                        class="project-label">Project </span>: <span
-                                                        class="font-semibold">Website</span>
-                                                </div>
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-user-o pr-8"></i><span
-                                                        class="project-label">Client </span>: <span
-                                                        class="font-semibold">Envato</span>
-                                                </div>
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-code pr-8"></i><span
-                                                        class="project-label">Langages </span>: <span
-                                                        class="font-semibold">HTML, CSS, Javascript</span>
-                                                </div>
-                                                <div class="w-1/2 xs:w-full mb-8">
-                                                    <i class="fa fa-external-link pr-8"></i><span
-                                                        class="project-label">Preview </span>: <span
-                                                        class="font-semibold"><a class="underline text-accent"
-                                                            href="#" target="_blank">www.envato.com</a></span>
-                                                </div>
-                                            </div>
-                                        </figcaption>
-                                        <!-- Project Details Ends -->
-                                        <!-- Main Project Content Starts -->
-                                        <img class="block w-full rounded-5"
-                                            src="{{ url('demos/assets/img/projects/project-9.jpg') }}"
-                                            alt="Portolio Image">
-                                        <!-- Main Project Content Ends -->
-                                    </figure>
-                                </li>
-                                <!-- Portfolio Item Detail Ends -->
                             </ul>
                             <!-- Portfolio Navigation Starts -->
                             <nav
@@ -1275,7 +1222,7 @@
                     class="mx-auto w-full relative py-80 text-center xs:px-25 xs:pt-16 xs:pb-14 xs:bg-black-3 xs:border-b xs:border-black-4 xs:fixed xs:left-0 xs:right-0 xs:top-0 xs:z-20">
                     <h2
                         class="text-fs-56 font-black font-Poppins uppercase text-white m-0 xs:text-fs-26 xs:text-left xs:leading-lh-1.2">
-                        get in <span class="text-accent">touch</span>
+                        Entrer en <span class="text-accent">contact</span>
                     </h2>
                     <span
                         class="text-fs-110 absolute left-0 right-0 top-1/2 tracking-10 leading-lh-0.7 font-extrabold text-muted -translate-y-1/2 uppercase xs:hidden">contact</span>
@@ -1286,50 +1233,45 @@
                     <div class="flex down-lg:flex-col">
                         <!-- Contact Details Starts -->
                         <div class="w-1/3 down-lg:w-full px-16 xs:px-0">
-                            <h3 class="text-fs-26 xs:text-fs-21 mb-16 font-semibold uppercase">don't be shy !</h3>
+                            <h3 class="text-fs-26 xs:text-fs-21 mb-16 font-semibold uppercase">ne sois pas timide !
+                            </h3>
                             <p class="mb-16 font-Open-sans text-fs-15 xs:text-fs-14">
-                                Feel free to get in touch with me. I am always open to discussing new projects, creative
-                                ideas or opportunities to be part of your visions.
+                                N'hésitez pas à me contacter. Je suis toujours ouvert à discuter de nouveaux projets,
+                                d'idées créatives ou d'opportunités de faire partie de vos visions.
                             </p>
                             <div
                                 class="relative font-Open-sans font-semibold pl-50 pt-5 leading-lh-21 text-fs-15 xs:text-fs-14 mb-16">
                                 <i class="fa fa-envelope-open absolute left-0 top-10 text-fs-33 text-accent"></i>
                                 <span class="block opacity-80 uppercase font-normal">
-                                    mail me
+                                    envoyez-moi un mail
                                 </span>
-                                steve@mail.com
+                                ahmaddiallo0809@mail.com
                             </div>
                             <div
                                 class="relative font-Open-sans font-semibold pl-50 pt-5 leading-lh-21 text-fs-15 xs:text-fs-14 mb-16">
                                 <i class="fa fa-phone-square absolute left-0 top-10 text-fs-39 text-accent"></i>
                                 <span class="block opacity-80 uppercase font-normal">
-                                    call me
+                                    appelez-moi
                                 </span>
-                                +216 21 184 010
+                                +224 628 906 577
                             </div>
                             <ul class="-ml-5 pt-4 mb-48">
                                 <li class="inline-block">
-                                    <a href="#"
+                                    <a href="https://www.facebook.com/share/15JoCcNeo4/"
                                         class="social-item inline-block h-40 w-40 leading-lh-42 text-center text-white transition duration-300 text-fs-17 mx-6 bg-black-2 rounded-full">
                                         <i class="fa fa-facebook"></i>
                                     </a>
                                 </li>
                                 <li class="inline-block">
-                                    <a href="#"
+                                    <a href="https://www.linkedin.com/in/alpha-amadou-diallo-69b00a256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                                         class="social-item inline-block h-40 w-40 leading-lh-42 text-center text-white transition duration-300 text-fs-17 mx-6 bg-black-2 rounded-full">
-                                        <i class="fa fa-twitter"></i>
+                                        <i class="fa fa-linkedin"></i>
                                     </a>
                                 </li>
                                 <li class="inline-block">
-                                    <a href="#"
+                                    <a href="https://web.whatsapp.com/"
                                         class="social-item inline-block h-40 w-40 leading-lh-42 text-center text-white transition duration-300 text-fs-17 mx-6 bg-black-2 rounded-full">
-                                        <i class="fa fa-youtube"></i>
-                                    </a>
-                                </li>
-                                <li class="inline-block">
-                                    <a href="#"
-                                        class="social-item inline-block h-40 w-40 leading-lh-42 text-center text-white transition duration-300 text-fs-17 mx-6 bg-black-2 rounded-full">
-                                        <i class="fa fa-dribbble"></i>
+                                        <i class="fa fa-whatsapp"></i>
                                     </a>
                                 </li>
                             </ul>
@@ -1343,27 +1285,27 @@
                                     <div class="from-sm:w-1/3 down-sm:w-full px-16 xs:px-0">
                                         <input autocomplete="off"
                                             class="w-full bg-black-3 text-fs-15 text-white border border-solid border-black py-11 px-26 mb-30 rounded-30 outline-0 transition duration-300 placeholder:text-placeholder field-form"
-                                            type="text" name="name" placeholder="YOUR NAME">
+                                            type="text" name="name" placeholder="VOTRE NOM">
                                     </div>
                                     <div class="from-sm:w-1/3 down-sm:w-full px-16 xs:px-0">
                                         <input autocomplete="off"
                                             class="w-full bg-black-3 text-fs-15 text-white border border-solid border-black py-11 px-26 mb-30 rounded-30 outline-0 transition duration-300 placeholder:text-placeholder field-form"
-                                            type="email" name="email" placeholder="YOUR EMAIL">
+                                            type="email" name="email" placeholder="VOTRE EMAIL">
                                     </div>
                                     <div class="from-sm:w-1/3 down-sm:w-full px-16 xs:px-0">
                                         <input autocomplete="off"
                                             class="w-full bg-black-3 text-fs-15 text-white border border-solid border-black py-11 px-26 mb-30 rounded-30 outline-0 transition duration-300 placeholder:text-placeholder field-form"
-                                            type="text" name="subject" placeholder="YOUR SUBJECT">
+                                            type="text" name="subject" placeholder="OBJET">
                                     </div>
                                     <div class="w-full px-16 xs:px-0">
                                         <textarea
                                             class="bg-black-3 w-full text-white border border-solid border-black h-160 py-12 px-26 overflow-hidden rounded-30 outline-0 transition duration-300 field-form placeholder:text-placeholder"
-                                            placeholder="YOUR MESSAGE"></textarea>
+                                            placeholder="VOTRE MESSAGE"></textarea>
                                     </div>
                                     <div class="w-full px-16 xs:px-0 mt-30">
                                         <button type="submit"
                                             class="button overflow-hidden inline-block leading-lh-1.4 rounded-30 text-ellipsis text-center align-middle select-none transition-all duration-250 ease-in-out uppercase no-underline relative z-10 py-16 pr-70 pl-35 text-fs-15 font-semibold text-white bg-transparent outline-0 before:absolute before:-z-10 before:left-0 before:right-0 before:top-0 before:bottom-0 before:translate-x-full hover:before:translate-x-0 before:transition before:duration-300 before:ease-out">
-                                            <span class="relative z-20 text-white">send message</span>
+                                            <span class="relative z-20 text-white">envoyer un message</span>
                                             <span
                                                 class="absolute -right-px bottom-0 w-55 h-55 flex items-center justify-center rounded-full text-white text-fs-19 fa fa-send bg-accent"></span>
                                         </button>
