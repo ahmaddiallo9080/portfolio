@@ -720,17 +720,12 @@
                                 </li>
                             </ul>
                         </div>
-                        <!-- Education Ends -->
                     </div>
-                    <!-- Resume Ends -->
                 </div>
             </div>
         </div>
-        <!-- About Ends -->
-        <!-- Portfolio Starts -->
         <div class="page" id="portfolio">
             <div class="w-full">
-                <!-- Section Title Starts -->
                 <div
                     class="mx-auto w-full relative py-80 text-center xs:px-25 xs:pt-16 xs:pb-14 xs:bg-black-3 xs:border-b xs:border-black-4 xs:fixed xs:left-0 xs:right-0 xs:top-0 xs:z-20">
                     <h2
@@ -740,15 +735,11 @@
                     <span
                         class="text-fs-110 absolute left-0 right-0 top-1/2 tracking-10 leading-lh-0.7 font-extrabold text-muted -translate-y-1/2 uppercase xs:hidden">Projets</span>
                 </div>
-                <!-- Section Title Ends -->
-                <!-- Portfolio Items Starts -->
                 <div class="-mt-15 pb-60 xs:pb-20 portfolio">
                     <div id="grid-gallery"
                         class="xl:max-w-1140 custom-md-3:max-w-[calc(100%-195px)] md:max-w-720 sm:max-w-540 xs:max-w-full mx-auto">
-                        <!-- Portfolio Grid Starts -->
                         <div class="grid-wrap mx-auto mb-25">
                             <ul class="gridlist">
-                                <!-- Portfolio Grid Item Starts -->
                                 <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
                                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
                                         <img class="block relative w-full rounded-5 transition duration-300"
@@ -760,8 +751,7 @@
                                         </div>
                                     </figure>
                                 </li>
-                                <!-- Portfolio Grid Item Ends -->
-                                <!-- Portfolio Grid Item Starts -->
+
                                 <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
                                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
                                         <img class="block relative w-full rounded-5 transition duration-300"
@@ -773,8 +763,7 @@
                                         </div>
                                     </figure>
                                 </li>
-                                <!-- Portfolio Grid Item Ends -->
-                                <!-- Portfolio Grid Item Starts -->
+
                                 <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
                                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
                                         <img class="block relative w-full rounded-5 transition duration-300"
@@ -786,8 +775,7 @@
                                         </div>
                                     </figure>
                                 </li>
-                                <!-- Portfolio Grid Item Ends -->
-                                <!-- Portfolio Grid Item Starts -->
+
                                 <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
                                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
                                         <img class="block relative w-full rounded-5 transition duration-300"
@@ -799,8 +787,7 @@
                                         </div>
                                     </figure>
                                 </li>
-                                <!-- Portfolio Grid Item Ends -->
-                                <!-- Portfolio Grid Item Starts -->
+
                                 <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
                                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
                                         <img class="block relative w-full rounded-5 transition duration-300"
@@ -812,8 +799,7 @@
                                         </div>
                                     </figure>
                                 </li>
-                                <!-- Portfolio Grid Item Ends -->
-                                <!-- Portfolio Grid Item Starts -->
+
                                 <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
                                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
                                         <img class="block relative w-full rounded-5 transition duration-300"
@@ -825,8 +811,7 @@
                                         </div>
                                     </figure>
                                 </li>
-                                <!-- Portfolio Grid Item Ends -->
-                                <!-- Portfolio Grid Item Starts -->
+
                                 <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
                                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
                                         <img class="block relative w-full rounded-5 transition duration-300"
@@ -838,6 +823,7 @@
                                         </div>
                                     </figure>
                                 </li>
+
                                 <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
                                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
                                         <img class="block relative w-full rounded-5 transition duration-300"
@@ -849,6 +835,7 @@
                                         </div>
                                     </figure>
                                 </li>
+
                                 <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
                                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
                                         <img class="block relative w-full rounded-5 transition duration-300"
@@ -864,10 +851,8 @@
                         </div>
                         <div class="slideshow">
                             <ul>
-                                <!-- Portfolio Item Detail Starts -->
                                 <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
                                     <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
-
                                         <figcaption class="mb-15">
                                             <h3
                                                 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
@@ -1186,7 +1171,6 @@
                                     </figure>
                                 </li>
                             </ul>
-                            <!-- Portfolio Navigation Starts -->
                             <nav
                                 class="down-lg:fixed down-lg:top-0 down-lg:w-full down-lg:h-102 down-lg:bg-black-3 down-lg:z-10 down-lg:border-b down-lg:border-solid down-lg:border-b-black-4 xs:h-62">
                                 <span
@@ -1205,16 +1189,11 @@
                                         src="{{ url('demos/assets/img/projects/navigation/close-button.png') }}"
                                         alt="close"> </span>
                             </nav>
-                            <!-- Portfolio Navigation Ends -->
                         </div>
-                        <!-- Portfolio Details Ends -->
                     </div>
                 </div>
-                <!-- Portfolio Items Ends -->
             </div>
         </div>
-        <!-- Portfolio Ends -->
-        <!-- Contact Starts -->
         <div class="page" id="contact">
             <div class="w-full">
                 <!-- Section Title Starts -->
