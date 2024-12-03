@@ -255,12 +255,12 @@
                 class="flex items-center h-screen w-full down-lg:mx-auto down-lg:justify-center xs:text-left down-lg:text-center ">
                 <!-- Desktop Image Starts -->
                 <img class="hidden from-lg:block fixed w-1/3 h-[calc(100vh-80px)] left-40 top-40 rounded-30 shadow-1 object-cover"
-                    src="{{ url('demos/assets/images/profil1.jpg') }}" alt="">
+                    src="{{ url('public/demos/assets/images/profil1.jpg') }}" alt="">
                 <!-- Desktop Image Ends -->
                 <div class="from-lg:ml-100/3 from-lg:w-2/3">
                     <div class="mx-auto max-w-550 custom-md-1:max-w-450">
                         <!-- Mobile Image Starts -->
-                        <img src="{{ url('demos/assets/images/profil1.jpg') }}"
+                        <img src="{{ url('public/demos/assets/images/profil1.jpg') }}"
                             class="hidden down-lg:block xs:!hidden rounded-full w-270 h-270 mx-auto mb-25 border-4 border-solid border-black-3"
                             alt="my picture">
                         <!-- Mobile Image Ends -->
