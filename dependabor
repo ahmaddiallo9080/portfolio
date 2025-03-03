@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "composer"  # Spécifiez Composer comme écosystème
+    directory: "/"                 # Répertoire où se trouve composer.json
+    registries:                    # Définissez le registre privé
+      - packagist-private
+    schedule:
+      interval: "daily"           # Fréquence des mises à jour
+registries:
+  packagist-private:
+    type: "composer-repository"    # Type de registre
+    url: "https://repo.packagist.org"  # URL du registre
+    token: "${{ secrets.PACKAGIST_TOKEN }}"  # Utilisation du secret
